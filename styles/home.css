@@ -1,0 +1,21 @@
+header{
+    background-color: lightgrey;
+    padding:1%;
+}
+
+.heading{
+    font-family: 'Montez', cursive;   
+    color: blue; 
+    font-size: xx-large;
+}
+
+.subheading{
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.header-btn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
