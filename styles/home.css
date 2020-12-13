@@ -14,9 +14,14 @@ input {
     padding: 2%;
 }
 label {
-    font-size: 20px;
-    font-weight: bolder;
+    font-size: 18px;    
     margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.modal-title{
+    color: grey;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* The Modal (background) */
 .modal {
@@ -34,7 +39,7 @@ label {
   }
   
   /* Modal Content/Box */
-  .modal-content {
+.modal-content {
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
@@ -43,21 +48,21 @@ label {
   }
   
   /* The Close Button */
-  .close {
+.close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
   }
   
-  .close:hover,
-  .close:focus {
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
   }
 
-  .submit-btn {
+.submit-btn {
     background-color: #00800091;
     color: #fff;
     padding: 2%;

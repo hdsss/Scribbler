@@ -31,18 +31,20 @@
             <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <form>
-                    <h1>Sign up</h1>
+                <h2 class="modal-title">Get Started</h2>
+                    <hr>
+                <form>                     
                     <label class="labelText">Name</label>
-                    <input type="text" placeholder="Enter your name" id="name">
+                    <input type="text" placeholder="Enter your name" id="name" required>
                     <label class="labelText">Username</label>
-                    <input type="text" placeholder="Enter your username" id="username">                    
+                    <input type="text" placeholder="Enter your username" id="username" required>                    
                     <label id="password">Password</label>
-                    <input type="password" placeholder="Enter your password" id="password">
+                    <input type="password" placeholder="Enter your password" id="password" required>
                     <label id="password">Confirm Password</label>
-                    <input type="password" placeholder="Re-set your password" id="password">                    
+                    <input type="password" placeholder="Re-set your password" id="password" required>           
+                    <button class="submit-btn" onclick="signUpSubmit(firstName, lastName, email, password, mobile)">Sign Up</button>         
             </form>
-            <button class="submit-btn" onclick="signUpSubmit(firstName, lastName, email, password, mobile)">Sign Up</button>
+            
             </div>
 
         </div>
