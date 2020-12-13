@@ -7,6 +7,7 @@
     <!-- TODO: Include Google Fonts file here -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/home.css">
 </head>
 
@@ -16,13 +17,36 @@
         <div class="upper-head">
             <div class="heading">ScriBBler</div>
             <div>
-                <input class="header-btn" type="submit" id="searchBoard" value="Sign Up">
-                <input class="header-btn" type="submit" id="searchBoard" value="Sign In">
+                <button  class="header-btn"  id="signUpBtn" >Sign Up</button>
+                <button  class="header-btn"  id="signInBtn" >Sign In</button>
             </div>
         </div>
         <span class="subheading">Explore, Imagine, Create</span>
 
     </header>
-</body>
+    <div id="container">
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
 
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form>
+                    <h1>Sign up</h1>
+                    <label class="labelText">Name</label>
+                    <input type="text" placeholder="Enter your name" id="name">
+                    <label class="labelText">Username</label>
+                    <input type="text" placeholder="Enter your username" id="username">                    
+                    <label id="password">Password</label>
+                    <input type="password" placeholder="Enter your password" id="password">
+                    <label id="password">Confirm Password</label>
+                    <input type="password" placeholder="Re-set your password" id="password">                    
+            </form>
+            <button class="submit-btn" onclick="signUpSubmit(firstName, lastName, email, password, mobile)">Sign Up</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="./scripts/common.js"></script>
 </html>
