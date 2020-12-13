@@ -1,6 +1,7 @@
 header{
     background-color: lightgrey;
     padding:1%;
+    
 }
 
 .heading{
@@ -18,4 +19,8 @@ header{
     color: white;
     padding: 10px;
     border: 0;
+}
+.upper-head{
+    display: flex;
+    justify-content: space-between
 }
