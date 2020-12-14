@@ -48,9 +48,9 @@
             </div>
 
         </div>
-        <!-- The Modal -->
+        <!-- The SIgnIn Modal -->
         <div id="signInModal" class="modal">
-            <!-- Modal content -->
+            <!-- Sign In Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <h2 class="modal-title">Welcome Back!</h2>
@@ -69,8 +69,31 @@
             </div>
 
         </div>
+        <!-- Post buttons -->
+        <div id="posts" class="center">
+            <button class="post-btn" id="openPost" onclick="openPosts()">All Posts</button>
+            <button class="post-btn" id="createPost" onclick="">Create Post</button>
+        </div>
+    </div>
+
+    <!-- The Create Post Modal -->
+    <div id="createPostModal" class="modal">
+        <!-- Create Post Modal content -->
+        <div class="create-post-modal-content">
+            <span class="close">&times;</span>
+            <h2 class="modal-title">Pen your Post</h2>
+            <hr>
+            <form>
+                <label class="labelText">Title</label>
+                <input class="post-input" type="text" placeholder="Enter title of your post" id="username" required>
+                <label class="labelText">Contents</label>
+                <textarea class="post-input" rows="10" cols="30" name="post" placeholder="Enter the content of your post" id="post"></textarea>
+                <button class="create-post-btn">Create</button>
+            </form>
+        </div>
     </div>
 </body>
 <script src="./scripts/common.js"></script>
+<script src="./scripts/bloglist.js"></script>
 
 </html>

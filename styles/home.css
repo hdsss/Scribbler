@@ -1,0 +1,13 @@
+.post-btn{
+    background-color:#e0c74b;
+    padding: 1%;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    border: 2px solid #e7e7e7;
+    margin-left: 30px
+}
+.center{
+    text-align: center;
+    padding: 190px 0;
+}
