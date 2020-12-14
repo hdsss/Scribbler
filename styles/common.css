@@ -99,3 +99,12 @@ html {
      cursor: pointer;
      width: 100%
  }
+ .not-member{
+    text-align: center;
+    
+    font-weight: bold;
+ }
+ .not-member-signIn{
+    color: blue;
+    cursor: pointer;
+}

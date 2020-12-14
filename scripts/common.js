@@ -37,3 +37,10 @@ window.onclick = function(event) {
     signInModal.style.display = "none";
   }
 }
+
+// in sign In modal not a member? sign up click, open sign up modal
+var signUpLink = document.getElementById("signUp");
+signUpLink.onclick = function() {
+    signInModal.style.display = "none";
+    signUpModal.style.display = "block";
+  }
